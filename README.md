@@ -1,6 +1,6 @@
 # mdi
 
-Meteor package for Material Design icons from Templarian (materialdesignicons.com)
+Meteor package for Material Design icons from Templarian (http://materialdesignicons.com/)
 
 ## Installation
 
@@ -17,7 +17,7 @@ Use the syntax below in your HTML files:
 
 ## Learn More
 
-https://materialdesignicons.com/
+http://materialdesignicons.com/
 
 ## Licence
 
