@@ -1,6 +1,6 @@
 # mdi
 
-Meteor package for Material Design icons from Templarian (http://materialdesignicons.com/)
+Meteor package for Material Design Icons font from Templarian (http://materialdesignicons.com/).
 
 ## Installation
 
@@ -21,4 +21,4 @@ http://materialdesignicons.com/
 
 ## Licence
 
-See: https://github.com/Templarian/MaterialDesign/blob/master/license.txt
+See: http://github.com/Templarian/MaterialDesign/blob/master/license.txt
