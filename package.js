@@ -2,7 +2,7 @@ Package.describe({
     name: 'cedla:mdi',
     version: '1.0.0',
     summary: 'Meteor package for Material Design icons from Templarian (http://materialdesignicons.com/)',
-    git: '',
+    git: 'https://github.com/cedla/mdi.git',
     documentation: 'README.md'
 });
 
