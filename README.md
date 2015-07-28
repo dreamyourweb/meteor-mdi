@@ -1,4 +1,4 @@
-# mdi
+# meteor-mdi
 
 Meteor package for Material Design Icons font from Templarian (http://materialdesignicons.com/).
 
