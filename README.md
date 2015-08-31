@@ -22,3 +22,14 @@ http://materialdesignicons.com/
 ## Licence
 
 See: http://github.com/Templarian/MaterialDesign/blob/master/license.txt
+
+## Changelog
+
+### 1.2.65
+
+- Webfont updated to v1.2.65
+- Changing version naming to match the webfont versions
+
+### 1.0.0
+
+- Initial release
