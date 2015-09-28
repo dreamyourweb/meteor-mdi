@@ -9,7 +9,7 @@ Package.describe({
 Package.onUse(function (api) {
     api.versionsFrom('1.0');
 
-    api.use("fourseven:scss", ["server"]);
+    api.use("fourseven:scss@3.2.0", ["server"]);
     api.imply("fourseven:scss");
 
     api.addAssets([
