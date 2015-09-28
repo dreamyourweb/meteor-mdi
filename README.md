@@ -33,6 +33,9 @@ See: http://github.com/Templarian/MaterialDesign/blob/master/license.txt
 
 ## Changelog
 
+### 1.2.65.1
+- Serving SCSS files to fix font path (see #1)
+
 ### 1.2.65
 
 - Webfont updated to v1.2.65
