@@ -8,12 +8,25 @@ Package.describe({
 
 Package.onUse(function (api) {
     api.versionsFrom('1.0');
-    api.addFiles([
-        'MaterialDesign-Webfont/css/materialdesignicons.css',
+
+    api.use("fourseven:scss", ["server"]);
+    api.imply("fourseven:scss");
+
+    api.addAssets([
+        'MaterialDesign-Webfont/scss/_core.scss',
+        'MaterialDesign-Webfont/scss/_extras.scss',
+        'MaterialDesign-Webfont/scss/_icons.scss',
+        'MaterialDesign-Webfont/scss/_path.scss',
+        'MaterialDesign-Webfont/scss/_variables.scss',
+        'materialdesignicons.scss'
+    ], 'server');
+
+    api.addAssets([
         'MaterialDesign-Webfont/fonts/materialdesignicons-webfont.eot',
         'MaterialDesign-Webfont/fonts/materialdesignicons-webfont.svg',
         'MaterialDesign-Webfont/fonts/materialdesignicons-webfont.ttf',
         'MaterialDesign-Webfont/fonts/materialdesignicons-webfont.woff',
         'MaterialDesign-Webfont/fonts/materialdesignicons-webfont.woff2'
     ], 'client');
+
 });
