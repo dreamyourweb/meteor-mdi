@@ -1,7 +1,8 @@
-$mdi-font-path: "/packages/cedla_mdi/MaterialDesign-Webfont/fonts" !default;
+@charset "UTF-8";
+$mdi-font-path: "/packages/cedla_mdi/MaterialDesign-WebFont/fonts" !default;
 
-@import "MaterialDesign-WebFont/scss/variables";
-@import "MaterialDesign-WebFont/scss/path";
-@import "MaterialDesign-WebFont/scss/core";
-@import "MaterialDesign-WebFont/scss/icons";
-@import "MaterialDesign-WebFont/scss/extras";
+@import "{cedla:mdi}/MaterialDesign-WebFont/scss/variables.scss";
+@import "{cedla:mdi}/MaterialDesign-WebFont/scss/path.scss";
+@import "{cedla:mdi}/MaterialDesign-WebFont/scss/core.scss";
+@import "{cedla:mdi}/MaterialDesign-WebFont/scss/icons.scss";
+@import "{cedla:mdi}/MaterialDesign-WebFont/scss/extras.scss";

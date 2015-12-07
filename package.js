@@ -1,32 +1,32 @@
 Package.describe({
     name: 'cedla:mdi',
-    version: '1.2.66',
+    version: '1.2.67',
     summary: 'Material Design Icons font from Templarian (http://materialdesignicons.com/)',
     git: 'https://github.com/cedla/meteor-mdi.git',
     documentation: 'README.md'
 });
 
 Package.onUse(function (api) {
-    api.versionsFrom('1.0');
+    api.versionsFrom('METEOR@1.0');
 
-    api.use("fourseven:scss@3.2.0", ["server"]);
+    api.use("fourseven:scss@3.3.3");
     api.imply("fourseven:scss");
 
-    api.addAssets([
-        'MaterialDesign-Webfont/scss/_core.scss',
-        'MaterialDesign-Webfont/scss/_extras.scss',
-        'MaterialDesign-Webfont/scss/_icons.scss',
-        'MaterialDesign-Webfont/scss/_path.scss',
-        'MaterialDesign-Webfont/scss/_variables.scss',
+    api.addFiles([
+        'MaterialDesign-WebFont/scss/_core.scss',
+        'MaterialDesign-WebFont/scss/_extras.scss',
+        'MaterialDesign-WebFont/scss/_icons.scss',
+        'MaterialDesign-WebFont/scss/_path.scss',
+        'MaterialDesign-WebFont/scss/_variables.scss',
         'materialdesignicons.scss'
-    ], 'server');
+    ], 'client');
 
     api.addAssets([
-        'MaterialDesign-Webfont/fonts/materialdesignicons-webfont.eot',
-        'MaterialDesign-Webfont/fonts/materialdesignicons-webfont.svg',
-        'MaterialDesign-Webfont/fonts/materialdesignicons-webfont.ttf',
-        'MaterialDesign-Webfont/fonts/materialdesignicons-webfont.woff',
-        'MaterialDesign-Webfont/fonts/materialdesignicons-webfont.woff2'
+        'MaterialDesign-WebFont/fonts/materialdesignicons-webfont.eot',
+        'MaterialDesign-WebFont/fonts/materialdesignicons-webfont.svg',
+        'MaterialDesign-WebFont/fonts/materialdesignicons-webfont.ttf',
+        'MaterialDesign-WebFont/fonts/materialdesignicons-webfont.woff',
+        'MaterialDesign-WebFont/fonts/materialdesignicons-webfont.woff2'
     ], 'client');
 
 });
